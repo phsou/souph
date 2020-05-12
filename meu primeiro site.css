@@ -1,0 +1,43 @@
+body {
+    background: #A9A9A9;
+    background-image: url(https://i.pinimg.com/originals/ba/39/84/ba398408c7595e82ed73a1f8a03f8b90.jpg);
+    background-size: 100%;
+    background-position: 94% 6%;
+         }
+  
+  .menu li {
+    background-color: 	#B22222;
+    border-radius: 5px; 
+    font-family: Miriam fixed;
+    font-size: 25px;
+    height: 30px;
+    list-style: none;
+    padding-top: 8px;
+    text-align: center;
+    width: 200px;
+        }
+  
+  .menu ul {
+    display: flex;
+    justify-content: space-evenly;
+      }
+  
+  a {
+    color: white;
+    text-decoration: none;
+         }
+  
+  a:hover {
+    text-decoration: underline;
+        }
+  
+  .site-subtitle,
+  .site-title {
+    font-family: agency fb;
+    text-align: center;
+    color: white;
+    }
+  
+  .site-subtitle {
+    font-style: italic;
+  }
