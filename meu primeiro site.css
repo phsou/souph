@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
   background: #A9A9A9;
   background-image: url(https://i.pinimg.com/originals/ba/39/84/ba398408c7595e82ed73a1f8a03f8b90.jpg);
@@ -5,26 +11,52 @@ body {
   background-position: 94% 6%;
        }
 
+       /*brakpoint*/
+@media (min-width: 400px ) {
+  font-size: 14px;
+}
+
+header {
+  height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  position: fixed;
+  width: 100vw;
+  top: 0;
+  background-color: #B22222;
+  ;
+}
+
+.menu a {
+display: block;
+padding: 8pt;
+
+  }
+
 .menu li {
-  background-color: 	#B22222;
-  border-radius: 5px; 
+  background-color: #B22222;
+  border-radius: 10px; 
   font-family: Miriam fixed;
   font-size:14pt;
-  height: 30px;
+  height: 40px;
   list-style: none;
   margin-left: 5px;
   margin-right: 5px;
-  padding-top: 11px;
-  text-align: center;
-  width: 200px;
   
+  text-align: center;
+  width: 340px;
+   
       }
 
 .menu ul {
   display: flex;
   justify-content: space-evenly;
   padding-inline-start: 0px !important;
-    }
+       }
 
 a {
   color: white;
@@ -42,6 +74,17 @@ a:hover {
   color: white;
   }
 
+.site-title {
+  font-size: 7em;
+ 
+ }
+
 .site-subtitle {
   font-style: italic;
+  font-size: 2em;
+  
+}
+
+.img-portfolio {
+  
 }
