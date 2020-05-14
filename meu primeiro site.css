@@ -13,7 +13,7 @@ body {
 
        /*brakpoint*/
 @media (min-width: 400px ) {
-  font-size: 14px;
+ 
 }
 
 header {
@@ -69,22 +69,60 @@ a:hover {
 
 .site-subtitle,
 .site-title {
-  font-family: agency fb;
+  /*agency fb*/
   text-align: center;
   color: white;
   }
 
 .site-title {
-  font-size: 7em;
- 
+  font-size: 5em;
+  font-family: 'Press Start 2P', cursive;
  }
 
 .site-subtitle {
-  font-style: italic;
   font-size: 2em;
+  font-family: agency fb;
+  margin-top: 10pt;
+  }
+
+h2 {
+  color: whitesmoke;
+  
+}
+
+figcaption {
+  color: white;
+  margin: 10pt;
+    }  
+
+.Vídeos {
+  padding: 2em;
   
 }
 
 .img-portfolio {
+  border-radius: 10px;
+}
+
+.Vídeos h2 {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  margin-bottom: 1.5em;
   
 }
+.Vídeos .grid {
+  display: grid;
+  gap: 2em;
+  justify-content: center;
+ }
+
+@media (min-width: 570px) {
+  .Vídeos .grid {
+    grid-template-columns: 256px 246px;}
+      }
+
+.Vídeos figure {
+  text-align: center;
+}
+/*.img-portfólio {
+  }*/
